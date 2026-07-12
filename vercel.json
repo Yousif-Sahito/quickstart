@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.164.0"
+    }
+  },
+  "installCommand": "git submodule update --init --recursive --depth 1",
+  "buildCommand": "hugo --gc --minify -b https://${VERCEL_PROJECT_PRODUCTION_URL}/",
+  "outputDirectory": "public",
+  "framework": null
+}

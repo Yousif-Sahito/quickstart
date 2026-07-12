@@ -1,0 +1,9 @@
+{
+  "name": "yousif-portfolio",
+  "private": true,
+  "scripts": {
+    "dev": "hugo server -D --bind 127.0.0.1 --port 1313",
+    "build": "hugo --gc --minify",
+    "build:vercel": "hugo --gc --minify -b https://${VERCEL_PROJECT_PRODUCTION_URL}/"
+  }
+}

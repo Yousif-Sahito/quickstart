@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#fafafa"/>
+  <rect width="800" height="48" fill="#1a1a2e"/>
+  <text x="24" y="32" fill="#fff" font-family="system-ui,sans-serif" font-size="18" font-weight="600">StyleStore</text>
+  <text x="680" y="32" fill="#e94560" font-family="system-ui,sans-serif" font-size="14">Cart (3)</text>
+  <rect x="40" y="70" width="160" height="360" rx="6" fill="#fff" stroke="#eee"/>
+  <text x="60" y="100" fill="#666" font-family="system-ui,sans-serif" font-size="13">Categories</text>
+  <rect x="220" y="70" width="540" height="170" rx="6" fill="#16213e"/>
+  <text x="260" y="160" fill="#fff" font-family="system-ui,sans-serif" font-size="28" font-weight="700">Summer Collection</text>
+  <rect x="220" y="260" width="170" height="170" rx="6" fill="#fff" stroke="#eee"/>
+  <rect x="230" y="320" width="150" height="80" fill="#f0f0f0"/>
+  <rect x="405" y="260" width="170" height="170" rx="6" fill="#fff" stroke="#eee"/>
+  <rect x="415" y="320" width="150" height="80" fill="#f0f0f0"/>
+  <rect x="590" y="260" width="170" height="170" rx="6" fill="#fff" stroke="#eee"/>
+  <rect x="600" y="320" width="150" height="80" fill="#f0f0f0"/>
+</svg>

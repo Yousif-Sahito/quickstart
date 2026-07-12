@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#eaeded"/>
+  <rect width="800" height="56" fill="#131921"/>
+  <text x="24" y="36" fill="#ff9900" font-family="system-ui,sans-serif" font-size="22" font-weight="700">amazon</text>
+  <rect x="200" y="14" width="400" height="32" rx="4" fill="#fff"/>
+  <rect x="620" y="14" width="60" height="32" rx="4" fill="#febd69"/>
+  <rect x="40" y="76" width="720" height="120" rx="4" fill="#232f3e"/>
+  <text x="400" y="145" fill="#fff" font-family="system-ui,sans-serif" font-size="24" font-weight="600" text-anchor="middle">Shop the latest deals</text>
+  <rect x="40" y="220" width="170" height="200" rx="4" fill="#fff" stroke="#ddd"/>
+  <rect x="50" y="230" width="150" height="120" fill="#f0f0f0"/>
+  <rect x="225" y="220" width="170" height="200" rx="4" fill="#fff" stroke="#ddd"/>
+  <rect x="235" y="230" width="150" height="120" fill="#f0f0f0"/>
+  <rect x="410" y="220" width="170" height="200" rx="4" fill="#fff" stroke="#ddd"/>
+  <rect x="420" y="230" width="150" height="120" fill="#f0f0f0"/>
+  <rect x="595" y="220" width="170" height="200" rx="4" fill="#fff" stroke="#ddd"/>
+  <rect x="605" y="230" width="150" height="120" fill="#f0f0f0"/>
+</svg>

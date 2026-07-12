@@ -1,0 +1,86 @@
+baseURL = 'https://example.org/'
+title = 'Engr: Yousif'
+theme = 'PaperMod'
+paginate = 10
+enableInlineShortcodes = true
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[params]
+env = "production"
+title = "Engr: Yousif"
+description = "Applied AI Engineer · Autonomous Agents · RAG · Developer Tools"
+author = "Engr: Yousif"
+images = ["cover.webp"]
+defaultTheme = "dark"
+ShowShareButtons = false
+ShowCodeCopyButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowToc = true
+TocOpen = false
+comments = false
+hidemeta = false
+hideSummary = false
+hideFooter = false
+disableThemeToggle = false
+ShowWordCount = false
+ShowReadingTime = true
+AnalyticsScript = ""
+
+[params.profileMode]
+enabled = true
+title = "Engr: _Yousif_"
+subtitle = "Applied AI Engineer · Autonomous Agents · RAG · Developer Tools"
+imageUrl = "/profile.png"
+imageTitle = "Muhammad Yousif"
+buttons = [
+  {name = "Projects", url = "/projects"},
+  {name = "Blog", url = "/blog"},
+  {name = "Support", url = "mailto:muhammadyousif08711@gmail.com"},
+  {name = "Resume", url = "/Muhammad_Yousif_Updated_Resume.pdf"},
+]
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/Yousif-Sahito"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/muhammad-yousif-232531389/"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:muhammadyousif08711@gmail.com"
+
+[menu]
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects"
+weight = 10
+
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/blog"
+weight = 20
+
+[[menu.main]]
+identifier = "connect"
+name = "Connect"
+url = "/connect"
+weight = 30
+
+[[menu.main]]
+identifier = "tools"
+name = "Tools"
+url = "/tools"
+weight = 40
+
+[[menu.main]]
+identifier = "archive"
+name = "Archive"
+url = "/archive"
+weight = 50

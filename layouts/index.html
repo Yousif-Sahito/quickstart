@@ -1,0 +1,35 @@
+{{- define "main" }}
+<div class="home-info">
+  {{- if .Site.Params.profileMode.enabled }}
+  <section class="profile-mode" aria-label="profile">
+    {{- with .Site.Params.profileMode.imageUrl }}
+    <img src="{{ . | absURL }}" alt="{{ $.Site.Params.profileMode.imageTitle | default "Profile Picture" }}" class="profile-image">
+    {{- end }}
+
+    {{- with .Site.Params.profileMode.title }}
+    <h1 class="profile-name">{{ . | markdownify }}</h1>
+    {{- end }}
+
+    {{- with .Site.Params.profileMode.subtitle }}
+    <p class="subtitle">{{ . }}</p>
+    {{- end }}
+
+    <div class="social-icons" role="navigation" aria-label="social links">
+      {{- range .Site.Params.socialIcons }}
+      <a href="{{ trim .url " " | safeURL }}" title="{{ (.title | default .name) | title }}" target="_blank" rel="noopener noreferrer me">
+        {{ partial "svg.html" (dict "name" .name) }}
+      </a>
+      {{- end }}
+    </div>
+
+    {{- with .Site.Params.profileMode.buttons }}
+    <div class="button-grid" role="group" aria-label="primary actions">
+      {{- range . }}
+      <a href="{{ trim .url " " | absURL }}" class="action-btn">{{ .name }}</a>
+      {{- end }}
+    </div>
+    {{- end }}
+  </section>
+  {{- end }}
+</div>
+{{- end }}
