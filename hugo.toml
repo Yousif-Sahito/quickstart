@@ -37,7 +37,7 @@ imageUrl = "/profile.png"
 imageTitle = "Muhammad Yousif"
 buttons = [
   {name = "Projects", url = "/projects"},
-  {name = "Blog", url = "/blog"},
+  {name = "WhatsApp", url = "https://wa.me/923191747520"},
   {name = "Support", url = "mailto:muhammadyousif08711@gmail.com"},
   {name = "Resume", url = "/Muhammad_Yousif_Updated_Resume.pdf"},
 ]
