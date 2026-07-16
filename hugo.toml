@@ -62,9 +62,9 @@ url = "/projects"
 weight = 10
 
 [[menu.main]]
-identifier = "blog"
-name = "Blog"
-url = "/blog"
+identifier = "whatsapp"
+name = "WhatsApp"
+url = "https://wa.me/923191747520"
 weight = 20
 
 [[menu.main]]
