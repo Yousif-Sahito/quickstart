@@ -38,7 +38,7 @@ imageTitle = "Muhammad Yousif"
 buttons = [
   {name = "Projects", url = "/projects"},
   {name = "WhatsApp", url = "https://wa.me/923191747520"},
-  {name = "Support", url = "mailto:muhammadyousif08711@gmail.com"},
+  {name = "Support", url = "mailto:muhammadyousif0811@gmail.com"},
   {name = "Resume", url = "/Muhammad_Yousif_Updated_Resume.pdf"},
 ]
 
@@ -52,7 +52,7 @@ url = "https://www.linkedin.com/in/muhammad-yousif-232531389/"
 
 [[params.socialIcons]]
 name = "email"
-url = "mailto:muhammadyousif08711@gmail.com"
+url = "mailto:muhammadyousif0811@gmail.com"
 
 [menu]
 [[menu.main]]
